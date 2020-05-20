@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+    <Pane prefHeight="200.0" prefWidth="350.0" GridPane.columnIndex="1">
+        <children>
+            <Label layoutX="157.0" layoutY="15.0" text="Login">
+            <font>
+               <Font size="15.0" />
+            </font></Label>
+            <Label layoutX="144.0" layoutY="85.0" text="Password">
+            <font>
+               <Font size="15.0" />
+            </font></Label>
+            <TextField fx:id="txtLogin" layoutX="35.0" layoutY="40.0" onKeyTyped="#checkInput" prefHeight="25.0" prefWidth="280.0" />
+            <TextField fx:id="txtPassword" layoutX="35.0" layoutY="110.0" onKeyTyped="#checkInput" prefHeight="25.0" prefWidth="280.0" />
+            <Button fx:id="btnLogin" disable="true" layoutX="50.0" layoutY="155.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Log in" />
+            <Button fx:id="btnSignup" layoutX="200.0" layoutY="155.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Sign up" />
+        </children></Pane>
+</GridPane>
