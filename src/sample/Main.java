@@ -11,14 +11,14 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
 
-        /*Parent root = FXMLLoader.load(getClass().getResource("login.fxml"));
+        /*Parent root1 = FXMLLoader.load(getClass().getResource("login.fxml"));
         primaryStage.setTitle("Log in");
-        primaryStage.setScene(new Scene(root, 350, 200));
+        primaryStage.setScene(new Scene(root1, 350, 200));
         primaryStage.show();*/
 
-        Parent root = FXMLLoader.load(getClass().getResource("sendMessage.fxml"));
+        Parent root2 = FXMLLoader.load(getClass().getResource("sendMessage.fxml"));
         primaryStage.setTitle("ChatApp");
-        primaryStage.setScene(new Scene(root, 650, 500));
+        primaryStage.setScene(new Scene(root2, 650, 500));
         primaryStage.show();
     }
 
